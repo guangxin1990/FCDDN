@@ -1,2 +1,2 @@
 # FCDDN
-Breast dataset segmentation network
+Thyroid dataset segmentation network
