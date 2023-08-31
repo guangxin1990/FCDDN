@@ -5,6 +5,8 @@ This repository is FCDDN segmentation of thyroid nodules ultrasound images.
 The Thyroid dataset contains 3794 ultrasound images. The training set, validation set and test set containing 3034, 380 and 380 images respectively.
 The External Thyroid dataset contains 124 ultrasound images, for testing only.
 
+We will upload the data as soon as the hospital dataset is publicly available.
+
 ## DSMA-Net Architecture
 <div align="center">
   <img src="./picture/framework.png" width="450" height="200">
