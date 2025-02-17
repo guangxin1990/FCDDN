@@ -7,7 +7,7 @@ The External Thyroid dataset contains 124 ultrasound images, for testing only.
 
 We will upload the data as soon as the hospital dataset is publicly available.
 
-## DSMA-Net Architecture
+## FCDDN Architecture
 <div align="center">
   <img src="./picture/framework.png" width="450" height="200">
 </div>
@@ -44,3 +44,20 @@ Dense Layer, Dense Dilated Block and Dilated convolution.
 
 # Usage
 `FCDDN.py` is our proposed network, `train.py` is used for training, `test.py` is used for testing, `predict.py` is used to display the segmented image, and `parameters.py` is used to calculate the number of parameters.
+
+## Citing
+If you find this work useful in your research, please consider citing the following papers:
+```BibTex
+@inproceedings{xing2024real,
+  title={Real-time reliable semantic segmentation of thyroid nodules in ultrasound images},
+  author={Xing, Guangxin and Wang, Shuaijie and Gao, Jie and Li, Xuewei},
+  journal={Physics in Medicine and Biology},
+  volume={69},
+  number={2},
+  pages={025016},
+  year={2024},
+  doi={10.1088/1361-6560/ad1210},
+  url = {https://dx.doi.org/10.1088/1361-6560/ad1210},
+  publisher={IOP Publishing}
+}
+```
