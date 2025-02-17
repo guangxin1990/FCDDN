@@ -4,7 +4,7 @@ import numpy as np
 from torch.utils.data import Dataset
 
 
-class BreastDataset(Dataset):
+class ThyroidDataset(Dataset):
     def __init__(self, root: str, transforms=None, txt_name: str = "train.txt"):
         super(BreastDataset, self).__init__()
         data_root = os.path.join(root, "data")

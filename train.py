@@ -6,7 +6,7 @@ import transforms as T
 
 from FCDDN import FCDDN
 from train_utils import train_one_epoch, evaluate, create_lr_scheduler
-from my_dataset import BreastDataset
+from my_dataset import ThyroidDataset
 
 
 class SegmentationPresetTrain:
@@ -67,10 +67,10 @@ def main(args):
 
     results_file = "./result/results_train{}.txt".format(datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
 
-    train_dataset = BreastDataset(args.data_path,
+    train_dataset = ThyroidDataset(args.data_path,
                                  transforms=get_transform(train=True, mean=mean, std=std), txt_name="train.txt")
 
-    val_dataset = BreastDataset(args.data_path,
+    val_dataset = ThyroidDataset(args.data_path,
                                  transforms=get_transform(train=False, mean=mean, std=std), txt_name="val.txt")
 
     num_workers = min([os.cpu_count(), batch_size if batch_size > 1 else 0, 8])
@@ -155,7 +155,7 @@ def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description="pytorch fcddn training")
 
-    parser.add_argument("--data-path", default="./", help="BreastData root")
+    parser.add_argument("--data-path", default="./", help="ThyroidData root")
     parser.add_argument("--num-classes", default=2, type=int)
     parser.add_argument("--device", default="cuda", help="training device")
     parser.add_argument("-b", "--batch-size", default=20, type=int)
