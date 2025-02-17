@@ -2,7 +2,7 @@
 
 This repository is FCDDN segmentation of thyroid nodules ultrasound images.
 
-The Thyroid dataset contains 3794 ultrasound images. The training set, validation set and test set containing 3034, 380 and 380 images respectively.
+The Thyroid dataset contains 3794 ultrasound images. Experiments can be performed using cross-validation.
 The External Thyroid dataset contains 124 ultrasound images, for testing only.
 
 We will upload the data as soon as the hospital dataset is publicly available.
@@ -14,29 +14,21 @@ We will upload the data as soon as the hospital dataset is publicly available.
 The framework of Fully Convolutional Dense Dilated Net (FCDDN). 
 
 <div align="center">
-  <img src="./picture/dilated1.png" width="80" height="80" />
-  <img src="./picture/dilated2.png" width="80" height="80" />
-  <img src="./picture/dilated3.png" width="80" height="80" />
-
-  <img src="./picture/DDB.png" width="300" height="100" />
-
-  <img src="./picture/layer1.png" width="80" height="200" />
-  <img src="./picture/layer2.png" width="80" height="200" />
-  <img src="./picture/layer3.png" width="80" height="200" />
+  <img src="./picture/DDB.png" width="400" height="150" />
 </div>
 
-Dense Layer, Dense Dilated Block and Dilated convolution.
+Dense Dilated Block
 
 ## Segmentation results
-<div align="center">
-  <img src="./picture/b17170509141815.png" width="100" height="100" />
-  <img src="./picture/fcddn_b17170509141815.png" width="100" height="100" />
-  <img src="./picture/fcddn_cropb17170509141815.png" width="80" height="50" />
-  
-  <img src="./picture/b7120820135000.png" width="100" height="100" />
-  <img src="./picture/fcddn_b7120820135000.png" width="100" height="100" />
-  <img src="./picture/fcddn_cropb7120820135000.png" width="80" height="50" />
-</div>
+ <div align="center">
+ <img src="./picture/b17170509141815.png" width="100" height="100" />
+ <img src="./picture/b7120820135000.png" width="100" height="100" />
+ </div>
+
+ <div align="center">
+ <img src="./picture/fcddn_b17170509141815.png" width="100" height="100" />
+ <img src="./picture/fcddn_b7120820135000.png" width="100" height="100" />
+ </div>
 
 # Prerequisites
 - Python 3.6+
