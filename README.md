@@ -21,13 +21,17 @@ Dense Dilated Block
 
 ## Segmentation results
  <div align="center">
- <img src="./picture/b17170509141815.png" width="100" height="100" />
- <img src="./picture/b7120820135000.png" width="100" height="100" />
+ <img src="./picture/b16.png" width="100" height="80" />
+ <img src="./picture/b20.png" width="100" height="80" />
+ <img src="./picture/b31.png" width="100" height="80" />
+ <img src="./picture/b04.png" width="100" height="80" />
  </div>
 
  <div align="center">
- <img src="./picture/fcddn_b17170509141815.png" width="100" height="100" />
- <img src="./picture/fcddn_b7120820135000.png" width="100" height="100" />
+ <img src="./picture/b9130324080516.png" width="100" height="80" />
+ <img src="./picture/b8130403135520.png" width="100" height="80" />
+ <img src="./picture/b3171105103231.png" width="100" height="80" />
+ <img src="./picture/b17170511143104.png" width="100" height="80" />
  </div>
 
 # Prerequisites
